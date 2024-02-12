@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GestorCriptomonedas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+
+        <!-- Agrega otros elementos del tema según sea necesario. -->
+
+        <!-- Puedes personalizar más colores según sea necesario. -->
+    </style>
+
+    <style name="Theme.GestorCriptomonedas" parent="Base.Theme.GestorCriptomonedas" />
+</resources>

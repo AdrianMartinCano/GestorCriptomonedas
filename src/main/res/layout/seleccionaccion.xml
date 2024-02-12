@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/textViewNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textSize="16sp"
+        tools:text="" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/botonVerCriptomonedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprar Criptomonedas"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/botonVenderCriptomonedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vender Criptomonedas"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/botonVerMonedero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Monedero"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/botonAtras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atrás"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
